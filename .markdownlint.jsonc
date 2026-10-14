@@ -1,0 +1,6 @@
+{
+  // Prose lines are as long as the sentence. Line length is a rule for code.
+  "MD013": false,
+  // The frontmatter title is page metadata, not a second H1.
+  "MD025": { "front_matter_title": "" }
+}
