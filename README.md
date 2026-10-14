@@ -4,13 +4,14 @@ This repo is a docs-as-code writing sample: one page on rotating a Stripe API ke
 
 ## Reviews
 
-   - The **technical reviewer** is accountable that the steps are safe to follow in production and match the current product.
-   - The **docs reviewer** is accountable for style, terms and consistency with the rest of the docs.
+- The **technical reviewer** is accountable for the steps are safe to follow in production and match the current product.
+- The **docs reviewer** is accountable for style, terms and consistency with the rest of the docs.
+
 The author merges only after both reviewers approved.
 
 ## Keeping samples and screenshots current
 
-The author adds screenshots and code samples after the text is approved. The author updates them when the feature changes. 
+The author adds screenshots and code samples after the text is approved. The author updates them when the feature changes.
 
 **When to change:** The release notes describing the feature, change log, or a request for change from an SME.
 
@@ -22,7 +23,6 @@ The author adds screenshots and code samples after the text is approved. The aut
 
 ## What I'd do next
 
-   - Add screenshots.
-   - Write the API keys overview and Handle a leaked API key pages.
-   - Add automated checks: link checker and Vale for style guide rules.
-
+- Add screenshots.
+- Write the API keys overview and Handle a leaked API key pages.
+- Add automated checks: link checker and Vale for style guide rules.
