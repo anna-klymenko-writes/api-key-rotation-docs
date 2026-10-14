@@ -23,34 +23,31 @@ Rotate the key when:
 
 ## Prerequisites
 
-* Before rotating your key, find every system that uses it, such as servers, scripts, and partner integrations. 
+* Before rotating your key, find every system that uses it, such as servers, scripts, and partner integrations.
 * Open your secrets manager. You'll need to save the new key as soon as you copy it, because in live mode you might not be able to view it again.
 
 ## Rotate the API key
 
-1. Go to **Developers** in the bottom-right corner.  
+## Rotate the API key
+
+1. Go to **Developers** in the bottom-right corner.
 2. Select **API keys**.
 
-<!-- Screenshot: API keys -->
+   <!-- Screenshot: Developers menu with API keys selected -->
 
-3. Select the three dots icon (**...**) next to the key you want to rotate.  
-   
+3. Select the three dots icon (**...**) next to the key you want to rotate.
 
-<!-- Screenshot: API keys page with the menu (...) open -->
+   <!-- Screenshot: API keys page with the menu (...) open -->
 
-4. Select **Rotate key**.  
-5. Select one of the expiry options in **Set key expiry**:  
-* **Now**: the old key stops working immediately and no one can use it anymore. Use this option if the key leaked to stop anyone else from using it.  
-        
-* **In 1 hour**, **In 24 hours**, **In 3 days**, **In 7 days**: the old key stays active alongside a new one for a selected period of time. Use this option to prevent any breakage in live traffic until you migrate gradually and test the changes.
+4. Select **Rotate key**.
+5. Select one of the expiry options in **Set key expiry**:
 
->[!NOTE]
->If you select **Now**, you must update any code that uses the expired key right away, because systems that still use it start failing immediately.  
+   * **Now**: the old key stops working immediately and no one can use it anymore. Use this option if the key leaked to stop anyone else from using it. Update any code that uses the old key right away, because systems that still use it start failing immediately.
+   * **In 1 hour**, **In 24 hours**, **In 3 days**, **In 7 days**: the old key stays active alongside a new one for a selected period of time. Use this option to prevent any breakage in live traffic until you migrate gradually and test the changes.
 
-<!-- Screenshot: Set key expiry -->
+   <!-- Screenshot: Set key expiry -->
 
 6. Select **Rotate**.
-
 7. In the **Your new secret key** dialog, select **Copy and Close**, then paste the key into your secrets manager right away. In live mode, you might not be able to view it again.
 
-<!-- Screenshot: Copy and Close -->
+   <!-- Screenshot: Copy and Close -->
