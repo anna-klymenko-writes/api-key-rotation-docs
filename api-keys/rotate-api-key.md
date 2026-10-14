@@ -28,8 +28,6 @@ Rotate the key when:
 
 ## Rotate the API key
 
-## Rotate the API key
-
 1. Go to **Developers** in the bottom-right corner.
 2. Select **API keys**.
 
