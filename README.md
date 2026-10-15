@@ -4,8 +4,8 @@ This repo is a docs-as-code writing sample: one page on rotating a Stripe API ke
 
 ## Reviews
 
-- The **technical reviewer** is accountable for the steps are safe to follow in production and match the current product.
-- The **docs reviewer** is accountable for style, terms and consistency with the rest of the docs.
+- The **technical reviewer** is accountable for making sure the steps are safe to follow in production and match the current product.
+- The **docs reviewer** is accountable for style, terms, and consistency with the rest of the docs.
 
 The author merges only after both reviewers approved.
 
