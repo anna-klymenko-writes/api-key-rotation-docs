@@ -49,3 +49,15 @@ Rotate the key when:
 7. In the **Your new secret key** dialog, select **Copy and Close**, then paste the key into your secrets manager right away. In live mode, you might not be able to view it again.
 
    <!-- Screenshot: Copy and Close -->
+
+## Update your integrations
+
+1. Update the key in one system first to check for errors.
+2. Update the key in the other systems.
+3. View the old key’s request logs: select the three dots icon (**...**) next to the old key, then select **View logs**.
+4. Expire the old key only after its traffic has remained at zero for a few hours or days: select the three dots icon (**...**) next to the old key, then select **Expire key**.
+
+If you don’t expire the old key yourself, it expires at the time you chose. To see the time left, hover over the red time icon next to the old key’s name.
+
+> [!NOTE]
+> If you identify errors, you can switch back to the old key while it is still valid. This only works if you chose a delay. With **Now**, the old key is already gone.
