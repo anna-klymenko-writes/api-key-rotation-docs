@@ -1,28 +1,16 @@
-# api-key-rotation-docs
+# Rotate a Stripe secret API key without breaking live traffic
 
-This repo is a docs-as-code writing sample: one page on rotating a Stripe API key without breaking live traffic, with navigation, an automated check and an open PR.
+A how-to guide for backend developers who need to replace a Stripe
+secret key in production without failed requests.
 
-## Reviews
+- **Read the guide:** [api-keys/rotate-api-key.md](api-keys/rotate-api-key.md)
+- **Audience:** backend developers and DevOps engineers who manage Stripe integrations
+- **Tested:** in my own Stripe sandbox account, October 2026
+- **Sources:** Stripe API keys documentation
 
-- The **technical reviewer** is accountable for making sure the steps are safe to follow in production and match the current product.
-- The **docs reviewer** is accountable for style, terms, and consistency with the rest of the docs.
+## How it's written
 
-The author merges only after both reviewers approved.
+Written docs-as-code in Markdown and versioned in Git.
+`SUMMARY.md` defines the table of contents.
 
-## Keeping samples and screenshots current
-
-The author adds screenshots and code samples after the text is approved. The author updates them when the feature changes.
-
-**When to change:** The release notes describing the feature, change log, or a request for change from an SME.
-
-## What I didn't automate, and why
-
-**What:** checking that the steps still match the real Dashboard.
-
-**Why:** a linter checks format, not whether the product behaves as described. Only someone testing in the sandbox can confirm it, which is how I verified this page.
-
-## What I'd do next
-
-- Add screenshots.
-- Write the API keys overview and Handle a leaked API key pages.
-- Add automated checks: link checker and Vale for style guide rules.
+Author: Anna Klymenko
